@@ -7,60 +7,194 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Document</title>
   <link rel="stylesheet" href="./public/css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Courgette&display=swap" rel="stylesheet">
 </head>
 
 <body>
 
   <!--NAVIGATION-->
 
-  <header>
+  <header class="conatiner-fluid position-relative">
+    <section class="row">
+      <img class="d-block w-100" src="./images/banner1.jpg" alt="First slide">
+      <div class="sombre w-100 position-absolute"></div>
 
-    <div class="sombre"></div>
+      <nav class="position-absolute mt-5">
+        <div class="row">
+          <ul class="nav border-top border-bottom justify-content-center">
+            <li class="nav-item py-4">
+              <a class="nav-link active ml-3 pl-5" href="#">HOME</a>
+            </li>
+            <li class="nav-item py-4">
+              <a class="nav-link pl-5" href="#">ABOUTUS</a>
+            </li>
+            <li class="nav-item py-4">
+              <a class="nav-link pl-5" href="#">MENULIST</a>
+            </li>
+            <li class="nav-item py-4">
+              <a class="nav-link pl-5" href="#">TEAM</a>
+            </li>
+          </ul>
 
-    <nav>
-      <ul class="nav border-top border-bottom pt-4 justify-content-center">
-        <li class="nav-item">
-          <a class="nav-link active" href="#">HOME</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">ABOUTUS</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">MENULIST</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">TEAM</a>
-        </li>
+          <!--logo-->
 
-        <div>
-          <img src="./images/logo.png" alt="">
+          <div class="mr-3 ml-5">
+            <img src="./images/logo.png" alt="">
+          </div>
+
+          <!--2nav-->
+
+          <ul class="nav border-top border-bottom justify-content-center">
+            <li class="nav-item py-4">
+              <a class="nav-link active ml-5 pl-5" href="#">RESERVATION</a>
+            </li>
+            <li class="nav-item py-4">
+              <a class="nav-link pl-5" href="#">BLOG</a>
+            </li>
+            <li class="nav-item py-4">
+              <a class="nav-link pl-5" href="#">TESIMONIALS</a>
+            </li>
+            <li class="nav-item py-4">
+              <a class="nav-link pl-5" href="#">CONTACTUS</a>
+            </li>
+          </ul>
         </div>
+      </nav>
 
-        <li class="nav-item">
-          <a class="nav-link active" href="#">RESERVATION</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">BLOG</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">TESIMONIALS</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">CONTACTUS</a>
-        </li>
-      </ul>
-    </nav>
+      <!--CAROUSEL-->
 
+      <div class="carousel-item position-absolute">
+        <img class="imgtrans" src="./images/banner1.jpg" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>okkokok</h5>
+          <p>...</p>
+        </div>
+      </div>
+
+    </section>
   </header>
 
+  <!--SECTION 1-->
 
-  <!--CAROUSEL-->
+  <section class="section1">
 
-  <img class="d-block w-100" src="./images/banner1.jpg" alt="First slide">
+    <section class="section2 border">
+
+      <div class="position-absolute">
+        <img src="./images/box-left-top.png" alt="">
+      </div>
+
+      <div class="motifrouge">
+        <img src="./images/box-right-top.png" alt="">
+      </div>
+
+      <div class="text-center mt-5 " class="section1">
+        <h2><span class="text-danger">OUR</span> story</h2>
+        <img class="mb-5" src="./images/decoration_line.png" alt="">
+        <div class="container col-6">
+          <p>Ut enim minim veniam, quiesed nostrud exe rcitationes ullamcoes laboris nisi ut aliquip ex ea commodo
+            consequat. Duis aute irure dolor in reprehe ut labore et dolor magna aliqua. Ut enim ades quised nostrud
+            exercitation nderit in voluptate. Excepteur sint occaecat cupidata non proident, sunt in culpa qui officia
+            deseruntes volu ptate accusantium doloreds mque laudantium, totam rem aperiam, Lorem ipsum, dolor sit amet
+            consectetur adipisicing elit sed do eiusmod tempor in subascidi dunt ut labore et dolore magne aliqua.</p>
+          <h2 class="mt-5"><span class="text-danger">OUR</span> Menu List</h2>
+          <img class="mb-5" src="./images/decoration_line.png" alt="">
+        </div>
+      </div>
+
+      <!--SECTION 2 CAFÉ COLONE 1-->
+
+      <div class="row">
+
+        <div class="col-3">
+          <div class="d-flex"></div>
+
+          <div>
+
+            <div class="border-bottom">
+              <img class="cafe" src="./images/menu_image_1.jpg" alt="">
+              <h6>Deer Steak with Potatoes</h6>
+              <p>Welcom to Risotto restaurant website.Here we try to share our</p>
+            </div>
+          </div>
 
 
+          <div class="border-bottom">
+            <img class="cafe" src="./images/menu_image_1.jpg" alt="">
+            <h6>Deer Steak with Potatoes</h6>
+            <p>Welcom to Risotto restaurant website.Here we try to share our</p>
+          </div>
+
+          <div class="border-bottom">
+            <img class="cafe" src="./images/menu_image_1.jpg" alt="">
+            <h6>Deer Steak with Potatoes</h6>
+            <p>Welcom to Risotto restaurant website.Here we try to share our</p>
+          </div>
+
+          <div class="border-bottom">
+            <img class="cafe" src="./images/menu_image_1.jpg" alt="">
+            <h6>Deer Steak with Potatoes</h6>
+            <p>Welcom to Risotto restaurant website.Here we try to share our</p>
+          </div>
+
+          <div class="border-bottom">
+            <img class="cafe" src="./images/menu_image_1.jpg" alt="">
+            <h6>Deer Steak with Potatoes</h6>
+            <p>Welcom to Risotto restaurant website.Here we try to share our</p>
+          </div>
+
+        </div>
+
+        <!-- CAFÉ COLONE 2 -->
+
+        <div class="col-3">
+          <div class="d-flex"></div>
+
+          <div>
+
+            <div>
+              <img class="cafe" src="./images/menu_image_1.jpg" alt="">
+              <h6>Deer Steak with Potatoes</h6>
+              <p>Welcom to Risotto restaurant website.Here we try to share our</p>
+            </div>
+          </div>
 
 
+          <div>
+            <img class="cafe" src="./images/menu_image_1.jpg" alt="">
+            <h6>Deer Steak with Potatoes</h6>
+            <p>Welcom to Risotto restaurant website.Here we try to share our</p>
+          </div>
+
+          <div>
+            <img class="cafe" src="./images/menu_image_1.jpg" alt="">
+            <h6>Deer Steak with Potatoes</h6>
+            <p>Welcom to Risotto restaurant website.Here we try to share our</p>
+          </div>
+
+          <div>
+            <img class="cafe" src="./images/menu_image_1.jpg" alt="">
+            <h6>Deer Steak with Potatoes</h6>
+            <p>Welcom to Risotto restaurant website.Here we try to share our</p>
+          </div>
+
+          <div>
+            <img class="cafe" src="./images/menu_image_1.jpg" alt="">
+            <h6>Deer Steak with Potatoes</h6>
+            <p>Welcom to Risotto restaurant website.Here we try to share our</p>
+          </div>
+
+        </div>
+
+      </div>
+
+      <div class="">
+        <img src="./images/box-bottom-left.png" alt="">
+      </div>
+
+    </section>
+
+  </section>
 
 
 
