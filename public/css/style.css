@@ -15553,4 +15553,16 @@ h2 {
   opacity: 0;
 }
 
+i {
+  ont-family: "Courgette", cursive;
+}
+
+.footer {
+  background-image: url(../../images/footer_background.jpg);
+}
+
+h4 {
+  color: white;
+}
+
 /*# sourceMappingURL=style.css.map */
