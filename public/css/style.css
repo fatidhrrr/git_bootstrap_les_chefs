@@ -15495,22 +15495,47 @@ readers do not read off random characters that represent icons */
   font-family: "Font Awesome 5 Brands";
 }
 
-body {
+header {
+  background-image: url("../../public/images/banner1.jpg");
   background-size: cover;
 }
-
-header {
-  position: absolute;
+header .opacity {
+  opacity: 0.75;
+  background-color: black;
 }
-
-a {
+header nav .ulnav li {
+  list-style: none;
+  transform-style: none;
+}
+header nav .ulnav li a {
   color: white;
 }
-
-li:hover {
+header nav .ulnav li ahover {
   background-color: red;
 }
+header .contenair2 #carouselExampleIndicators .carousel-inner {
+  height: 500px;
+}
+header .contenair2 #carouselExampleIndicators .carousel-item .pcarousel {
+  font-family: "Courgette", cursive;
+  font-size: 60px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  padding: 50px;
+}
+header .contenair2 .dent .dentelle {
+  background-image: url("../../public/images/bottom_decoration_img.png");
+  height: 10px;
+}
 
+/*body 
+ *  background-size: cover */
+/*header
+ *  position: absolute */
+/*a 
+ *  color: white */
+/*li:hover 
+ *  background-color: red */
 /*.sombre
  *      position: absolute
  *      opacity: 0.70 
